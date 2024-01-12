@@ -31,7 +31,7 @@ function calculateAns(){
         }else ans +=(10*75 +(Number(input4.value)-10)*5);
     }
     ans=ans.toFixed(2);
-    ans=new Intl.NumberFormat('vn-VN').format(ans);
+    //ans=new Intl.NumberFormat('vn-VN').format(ans);
     text_ans="Mã khách hàng: "+input2.value +"; Tiền cáp: $"+ ans.toString();
     result.innerHTML=text_ans;
     return ;
