@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+     background-color: #EDF2F9; 
+}
+section{
+    margin-top: 30px;
+    background-color: #ECF0F3;
+    width:100%;
+    min-height: 100vh;
+}
+.container{
+}
+section .col-3 .changeHomeWork{
+    /* border:1px solid black; */
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #889197;
+    padding: 10px 0;
+     text-align: center;
+}
+section .col-3 .changeHomeWork div{
+    margin:10px;
+}
+section .col-3 .changeHomeWork button:hover{
+    color:#106CF6;
+}
+section .col-3 .changeHomeWork button{
+    padding:5px 50px;
+    border-radius: 10px;
+    transition: all 0.3 ease;
+}
+
+section .col-9 .output_HomeWork{
+    margin-top: 10px;
+}
+input,select{
+    width:25%;
+    padding:2px 5px;
+    border-radius:8px;
+    margin:0 10px 10px 0;
+    border: 1px solid black ;
+
+}
+ a{
+    text-decoration: none;
+    color:white;   
+    background-color: #106CF6;
+ }
+#bai1{
+    background-color: #106CF6;
+    color:#fff;
+}
+select{
+    padding:4px 5px ;
+}
+.btn{
+    background-color: #106CF6 !important;
+    border-radius: 10px;
+}
+.placeAns,#result{
+    margin-top: 10px;
+    background-color: #D1E7DD;
+    padding:10px;
+    border-radius: 10px;
+}
+#result{
+    margin-top: 5px;
+    padding:5px;
+}
+
