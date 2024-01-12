@@ -5,6 +5,16 @@ var input3= document.getElementById("input3");
 var input4= document.getElementById("input4");
 var result=document.getElementById("result");
 var nameButton=document.getElementById("ans");
+    // hidden input4
+input4.style.visibility="hidden";
+function appear(){
+    if(input1.value=="doanhNghiep"){
+        input4.style.visibility="visible";
+    }
+    if(input1.value=="nhaDan"){
+        input4.style.visibility="hidden";
+    }
+}
 function calculateAns(){
     var ans=0,text_ans="";
     if(input1.value=="0") {
@@ -15,7 +25,6 @@ function calculateAns(){
         ans=4.5 +20.5 + 7.5*Number(input3.value);
     }
     if(input1.value=="doanhNghiep"){
-        // input4.style.visibility="visible!important";
         ans=15 + 50*Number(input3.value);
         if(Number(input4.value)<=10){
             ans+=75;
